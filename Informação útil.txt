@@ -10,3 +10,9 @@ Para executar o nodemon use o comando "nodemon app"
 CTRL + SHIFT + B abre o modo de configuração de lançamento automatico no code.
 
 Separar a View(HTML) da Configuração do servidor(Express e etc...) e as routes(Endereços das paginas).
+
+Consign é um módulo que permite incluir automaticamente as rotas da aplicação.
+
+
+WRAPPER = "EMBRULHA" O MÉTODO DE CONEXÃO EM UMA VARIÁVEL 
+EVITA QUE O MÉTODO SEJA EXECUTADO A CADA REQUISIÇÃO ESTABELECIDA, PODENDO SER EXECUTADA SÓ QUANDO FOR NECESSÁRIO

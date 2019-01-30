@@ -1,6 +1,8 @@
 var mysql = require('mysql');
 
-module.exports = function () {
+//WRAPPER = "EMBRULHA" O MÉTODO DE CONEXÃO EM UMA VARIÁVEL 
+//EVITA QUE O MÉTODO SEJA EXECUTADO A CADA REQUISIÇÃO ESTABELECIDA, PODENDO SER EXECUTADA SÓ QUANDO FOR NECESSÁRIO
+var connMySQL = function () {
 
     return mysql.createConnection({
 
@@ -12,4 +14,10 @@ module.exports = function () {
 
     });
 
+}
+
+module.exports = function(){
+    console.log('O módulo de connexão foi carregado!');
+    
+   return connMySQL
 }
