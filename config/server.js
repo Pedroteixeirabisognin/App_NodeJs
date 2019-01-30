@@ -9,6 +9,7 @@ consign()
     .include('app/routes')
     //SE SETAR SÓ CONFIG ENTRA EM LOOP
     .then('config/dbConnection.js')
+    .then('app/models')
     .into(app);
 
 module.exports = app;
