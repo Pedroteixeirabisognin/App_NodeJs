@@ -1,0 +1,11 @@
+Express é um framework NodeJS para aplicações Web, ele facilita a configuração de módulos para controle de rotas por exemplo,
+controle dos midwares, controle da requisição e resposta e muito mais...
+
+EJS que é uma linguagem de modelagem para criação de paginas html utilizando JavaScript
+
+Nodemon verifica atualizações no código e rebuilda o servidor com as atualizações
+
+Para executar o nodemon use o comando "nodemon app"
+
+CTRL + SHIFT + B abre o modo de configuração de lançamento automatico no code.
+
