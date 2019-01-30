@@ -9,3 +9,4 @@ Para executar o nodemon use o comando "nodemon app"
 
 CTRL + SHIFT + B abre o modo de configuração de lançamento automatico no code.
 
+Separar a View(HTML) da Configuração do servidor(Express e etc...) e as routes(Endereços das paginas).
